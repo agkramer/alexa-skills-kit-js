@@ -21,7 +21,7 @@
 /**
  * App ID for the skill
  */
-var APP_ID = arn:aws:lambda:us-east-1:619433923718:function:Beer-Geek-Skill; //replace with "amzn1.echo-sdk-ams.app.[your-unique-value-here]";
+var APP_ID = "amzn1.echo-sdk-ams.app.f972372b-8525-450a-908b-6505cc391468"; //replace with "amzn1.echo-sdk-ams.app.[your-unique-value-here]";
 
 /**
  * Array containing beer facts.
