@@ -26,7 +26,7 @@ var APP_ID = undefined; //replace with "amzn1.echo-sdk-ams.app.[your-unique-valu
 /**
  * Array containing space facts.
  */
-var SPACE_FACTS = [
+var BEER_FACTS = [
     "A year on Mercury is just 88 days long.",
     "Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.",
     "Venus rotates counter-clockwise, possibly because of a collision in the past with an asteroid.",
@@ -121,4 +121,3 @@ exports.handler = function (event, context) {
     var spaceGeek = new SpaceGeek();
     spaceGeek.execute(event, context);
 };
-
