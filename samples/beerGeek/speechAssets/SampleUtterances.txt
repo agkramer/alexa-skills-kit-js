@@ -2,6 +2,10 @@ GetNewFactIntent a fact
 GetNewFactIntent a beer fact
 GetNewFactIntent tell me a fact
 GetNewFactIntent tell me a beer fact
+GetNewFactIntent to tell me a beer fact
+GetNewFactIntent tell me a fact about beer
+GetNewFactIntent for a fact
+GetNewFactIntent for a fact about beer
 GetNewFactIntent give me a fact
 GetNewFactIntent give me a beer fact
 GetNewFactIntent tell me trivia

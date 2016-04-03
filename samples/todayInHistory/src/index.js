@@ -90,7 +90,6 @@ TodayInHistory.prototype.intentHandlers = {
 function handleGetTodayInHistoryRequest(response) {
 
     var alexaResponse = response;
-    var events;
 
     request('http://history.muffinlabs.com/date', function (error, response, body) {
       if (!error && response.statusCode == 200) {
@@ -102,7 +101,7 @@ function handleGetTodayInHistoryRequest(response) {
 
         var eventArray = json["data"]["Events"];
 
-        event = json["data"]["Events"][getRandomInt(0,eventArray.length)];
+        var event = eventArray[getRandomInt(0,eventArray.length)];
         var speechOutput = "On this day in the year " + event["year"] + ", " + event["text"];
         alexaResponse.tellWithCard(speechOutput, "DayInHistory", speechOutput);
       }
